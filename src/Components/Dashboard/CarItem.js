@@ -17,4 +17,4 @@ const CarItem = (props) => {
     </div>
   );
 };
-export default CarItem;
+export default CarItem; 
