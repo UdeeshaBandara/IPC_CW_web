@@ -1,0 +1,54 @@
+label{
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
+    place-items: center;
+    text-align: center;
+}
+.login-page{
+    max-height: 1000vh;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url(".//..//..//assets//car//Siteback2.png") ,#151517;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    background-color: #151517;
+    max-width: 30rem;
+    width: 100%;
+    border-radius: 1rem;
+    place-items: center;
+}
+.form-group{
+    
+    margin-bottom: 2rem;
+    place-items: center;
+
+}
+.card-body{
+    width: 100%;
+    padding: 1rem;
+    place-items: center;
+}
+.form-control{
+    width: 100%;
+    padding: 0.8rem;
+    outline: 0;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ff3c3c;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    place-items: center;
+    color: #fff;
+    
+}
