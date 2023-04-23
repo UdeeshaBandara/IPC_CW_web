@@ -26,7 +26,7 @@ const GMap = () => {
             <LoadScript googleMapsApiKey={GMAP_API_KEY}>
                 <GoogleMap
                     center={center}
-                    zoom={18}
+                    zoom={20}
                     // mapTypeControlOptions={}
                     mapContainerStyle={{width: '100%', height: '100%'}}
                     options={{
