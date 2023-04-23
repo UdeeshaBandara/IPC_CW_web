@@ -1,40 +1,56 @@
-
-.cart-item{
+.cart-item {
     max-height: 10rem;
     height: 10rem;
     width: 30rem;
-    background: url(".//..//..//assets//car//Driver.png") ,#ffffff;
+    background: url(".//..//..//assets//car//Driver.png"), #ffffff;
     background-position: left bottom;
     background-size: 10rem;
     background-repeat: no-repeat;
-    background: url(".//..//..//assets//car//f1car.png") ,#ffffff;
+    background: url(".//..//..//assets//car//f1car.png"), #ffffff;
     background-position: right bottom;
     background-size: 10rem;
     background-repeat: no-repeat;
     border-radius: 1.5rem;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 10rem 1fr;
     padding: 1rem 1rem;
     cursor: pointer;
-    
-
-
-}
-.banner{
-    background: url(".//..//..//assets//car//f1car.png") ,#ffffff;
-}
-.rider-name{
+    gap: 1rem;
+  }
+  .banner {
+    background: url(".//..//..//assets//car//f1car.png"), #ffffff;
+  }
+  
+  .img-container {
+    grid-row: 1/3;
+    grid-column: 1/2;
+  }
+  .rider-name {
     color: #000000;
-    font-family: 'Squada One', cursive;
+    font-family: "Squada One", cursive;
     font-size: 2.6rem;
     margin: 0;
-
-}
-
-.no-plate{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  
+  .no-plate {
     color: #000000;
-    font-family: 'Squada One', cursive;
+    font-family: "Squada One", cursive;
     font-size: 2rem;
     margin: 0;
-
-}
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  
+  .driver-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .banner {
+    height: 10rem !important;
+    background-color: #ffffff;
+  }
+  
